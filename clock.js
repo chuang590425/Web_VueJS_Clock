@@ -10,6 +10,7 @@ var clock = new Vue({
         setClock () {
             // 新增一個日期物件放在 date
             var date = new Date();
+            
             this.hour = date.getHours();
             this.minute = date.getMinutes();
             this.second = date.getSeconds();
